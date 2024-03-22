@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 # The purpose of this script is to extract hidden API URLs from a website for the purposes of scraping data from the website. 
 # It saves time checking netowrk requests in the browser's developer tools and shortens the length of some URLs that are too long to be easily readable in the browser.
 
-website_url = "https://thepihut.com/"
+website_url = "Website URL Goes Here"
 
 def show_request_urls(driver, target_url):
     driver.get(target_url)
